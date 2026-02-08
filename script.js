@@ -12,7 +12,10 @@ const messages = [
   "Please… 🥺",
   "This hurts 😭",
   "Just press YES 😏",
+  "Last chance! NO or YES? 😬",
   "You’re enjoying this, aren’t you? 😤",
+  "Fine, keep saying NO... 😒",
+  "Okay fine… YES? 😏",
 ];
 
 function shakePage() {
