@@ -43,8 +43,8 @@ function handleNoClick() {
 
 // Works on PC & mobile
 noBtn.addEventListener("click", handleNoClick); // for pc
-// noBtn.addEventListener("touchstart", handleNoClick); // for mobile
-noBtn.addEventListener("touchstart", handleNoClick); // for both
+noBtn.addEventListener("touchstart", handleNoClick); // for mobile
+// noBtn.addEventListener("touchstart", handleNoClick); // for both
 
 yesBtn.addEventListener("click", () => {
   window.location.href = "yes.html";
