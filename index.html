@@ -3,17 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <title>Be My Valentine 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="background-container">
+    <canvas id="canvas"></canvas>
+  </div>
 
-  <div class="card">
-    <h1>💘 Will you be my Valentine? 💘</h1>
-    <p id="message">You have only one correct answer 😌</p>
+  <div class="floating-hearts">
+    <span class="heart">💕</span>
+    <span class="heart">💖</span>
+    <span class="heart">💗</span>
+    <span class="heart">💝</span>
+    <span class="heart">💓</span>
+  </div>
 
-    <div class="buttons">
-      <button id="yesBtn">YES 💖</button>
-      <button id="noBtn">NO 💔</button>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-shimmer"></div>
+      <div class="gif-container">
+        <img id="dynamicGif" src="assets/cutepuppy.gif" alt="Cute animals" class="cute-gif">
+      </div>
+      <h1 class="title">Will you be my Valentine?</h1>
+      <p id="message" class="message">You have only one correct answer 😌</p>
+
+      <div class="buttons">
+        <button id="yesBtn" class="btn btn-yes">YES 💖</button>
+        <button id="noBtn" class="btn btn-no">NO 💔</button>
+      </div>
     </div>
   </div>
 
