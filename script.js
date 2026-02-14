@@ -27,17 +27,17 @@ const messages = [
 
 // Gifs that change with each NO click - matching the emotional progression
 const gifs = [
-  "assets/cutepuppy.gif", // Cute puppy - initial NO
-  "assets/confused.gif", // Confused cat
-  "assets/sad.gif", // Sad puppy eyes
-  "assets/shocked.gif", // Shocked kitten
-  "assets/crying.gif", // Crying kitten
-  "assets/heartbroken.gif", // Sad dog
-  "assets/frustrated.gif", // Frustrated cat
-  "assets/crying2.gif", // crying
-  "assets/angry.gif", // Angry face
-  "assets/annoyed.gif", // Annoyed look
-  "assets/giveup.gif", // Giving up
+  "./assets/cutepuppy.gif", // Cute puppy - initial NO
+  "./assets/confused.gif", // Confused cat
+  "./assets/sad.gif", // Sad puppy eyes
+  "./assets/shocked.gif", // Shocked kitten
+  "./assets/crying.gif", // Crying kitten
+  "./assets/heartbroken.gif", // Sad dog
+  "./assets/frustrated.gif", // Frustrated cat
+  "./assets/crying2.gif", // crying
+  "./assets/angry.gif", // Angry face
+  "./assets/annoyed.gif", // Annoyed look
+  "./assets/giveup.gif", // Giving up
 ];
 
 // Particle system for effects
